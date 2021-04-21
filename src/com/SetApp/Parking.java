@@ -23,7 +23,7 @@ public class Parking {
                         int enter = scanner.nextInt();
                         if (enter>=place){
                         System.out.println("There is not extra place");
-
+                            System.out.println("ok");
 
                     }else {
                             place-=enter;
