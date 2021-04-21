@@ -24,6 +24,7 @@ public class Parking {
                         if (enter>=place){
                         System.out.println("There is not extra place");
 
+
                     }else {
                             place-=enter;
                             break;
