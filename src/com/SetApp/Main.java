@@ -7,6 +7,7 @@ public class Main {
     while (a<12){
         System.out.println("ishladi");
         a++;
+
     }
     do {
         System.out.println("ishladi");
