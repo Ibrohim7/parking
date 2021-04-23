@@ -6,7 +6,7 @@ public class Parking {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int place = 15;
-        double price = 5000;
+        double daily = 5000;
         String car;
         int command;
         while (true){
@@ -14,19 +14,19 @@ public class Parking {
                 command=scanner.nextInt();
                 switch (command){
                     case 0:
-                        System.out.println("Daily money");
-                        double money = scanner.nextDouble();
+                        System.out.println("Daily money " + daily);
                         break;
                     case 1:
                         System.out.println("There are " + place + " cars");
+                        break;
                     case 2:
                         int enter = scanner.nextInt();
                         if (enter>=place){
-                        System.out.println("There is not extra place");
-                            System.out.println("ok");
-
+                        System.out.println("There is not an extra place");
+                            System.out.println("okokok");
                     }else {
                             place-=enter;
+                            System.out.println("Success");
                             break;
                         }
 
